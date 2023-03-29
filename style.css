@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+html{
+    font-size:62.5%;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin: 1.5rem;
+    align-items: center;
+}
+
+.links a{
+    font-size:1.3rem;
+    padding: 0.7rem;
+    color:#000000de
+}
+.links a:hover{
+    text-decoration:underline
+}
+.image{
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.image img{
+    width:1.6rem;
+    margin:0 0.8rem;
+    filter: invert(40%) sepia(0%) saturate(2%) hue-rotate(94deg) brightness(99%) contrast(91%);
+}
+
+.image:hover{
+    background-color:#eee;
+    border-radius: 50%;
+   
+}
+button{
+    appearance: none;
+    border: none;
+    box-shadow: none;
+    border-radius: 0.4rem;
+    padding: 0.9rem 2.3rem;
+}
+.links button{
+    font-size: 1.4rem;
+    background-color: #1a73e8;
+    color:#fff;
+    
+    margin: 0 0.8rem;
+
+}
+.links button:hover{
+    box-shadow: 0 0 .6rem rgba(0, 0, 0, 0.4);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main img{
+    margin-top: 10rem;
+    height: 10rem;
+}
+.barra{
+    margin-top: 3rem;
+    width: 46vw;
+    height: 3.8rem;
+
+    border: 1px solid #ddd;
+    border-radius:2rem;
+   
+   
+}
+.barra:hover{
+    box-shadow: 0 0 .2rem #888;
+
+}
+.icons{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0 1.6rem;
+}
+.icons input{
+    padding-left: 1rem;
+    border:none;
+    width: 100%;
+}
+.icons input:focus{
+    outline:none
+}
+i{
+    font-size:1.4rem;
+    color: #888;
+}
+.dere{
+    display: flex;
+    gap: 1.5rem;
+}
+.botones{
+    margin-top:3rem;
+    
+}
+
+.botones button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    margin: 0.4rem;
+    font-size:1.33rem;
+    color:#444;
+}
+
+.botones button:hover{
+    border: 1px solid #ddd;
+    box-shadow: 0 0 .05rem rgba(0, 0, 0, 0.4);
+}
+
+.creditos{
+    margin-top:3rem;
+    font-size:1.33rem;
+    color: #444;
+}
+
+.creditos a{
+    color: #1a0dab;
+}
+.creditos a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    position:absolute;
+    bottom: 0;
+    background-color: #f2f2f2;
+    width: 100%;
+    
+    color: #70757a;
+}
+
+.copyright{
+    border-top: 1px solid #dadce0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.copyright p{
+    display:inline-block;
+    padding:1.8rem;
+    font-size: 1.4rem;
+}
+
+.copyright p:hover{
+    text-decoration: underline;
+}
+
+.country p{
+    font-size:1.5rem;
+    padding: 1.8rem;
+}
